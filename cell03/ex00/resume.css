@@ -3,58 +3,99 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 100%;
 }
 .header
 {
-	width: 70%;
+	width: 60%;
 	height: 30vh;
 	display: flex;
 	direction: row;
 	align-items: center;
 }
-
 .picture
 {
-	background-color: rgb(19, 165, 227);
+	background-color: rgb(15, 62, 82);
 	width: 30%;
 	height: 30vh;
 }
-
+.profile-img
+{
+	width:300px;
+	height:300px;
+	object-fit:cover;
+	border-radius:50%;
+	margin-left: 15%;
+	margin-top: 7%;
+}
 .titlebox
 {
-	background-color: orange;
+	background-color: rgb(162, 156, 145);
 	width: 70%;
 	height: 30vh;
 }
-.title
+.name
 {
 	height: 30%;
 	width: 50%;
 	color: white;
 	text-align: center;
+	font-size: 500%;
 	margin-left: 25%;
 	margin-top: 5%;
-	background-color: aqua;
 }
-.desc
+.surname
 {
 	height: 15%;
 	width: 50%;
+	font-size: 200%;
 	color: white;
 	text-align: center;
 	margin-left: 25%;
-	background-color: greenyellow;
 }
 .block2
 {
-	width: 70%;
+	width: 60%;
 	height:60vh;
 	align-items: center;
 	background-color: indigo;
 }
 .skills
 {
-	background-color: hotpink;
+	background-color: rgb(15, 62, 82);
 	width: 30%;
-	height: 30vh;
+	height: 60vh;
+	text-align: center;
+}
+.skill_block
+{
+	width: 50%;
+	background-color: burlywood;
+}
+.section
+{
+	width: 50%;
+	background-color: blue;
+}
+.section_title
+{
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 0.5px;
+	font-size: large;
+	font-weight: bold;
+}
+.text
+{
+	color: white;
+	font-family: sans-serif;
+	font-size: medium;
+	text-align: center;
+}
+.separator
+{
+	background-color: rgb(255, 255, 255);
+	border: 2px black;
+	width:30%;
+	height: 10px;
 }
