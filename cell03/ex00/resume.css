@@ -1,0 +1,60 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header
+{
+	width: 70%;
+	height: 30vh;
+	display: flex;
+	direction: row;
+	align-items: center;
+}
+
+.picture
+{
+	background-color: rgb(19, 165, 227);
+	width: 30%;
+	height: 30vh;
+}
+
+.titlebox
+{
+	background-color: orange;
+	width: 70%;
+	height: 30vh;
+}
+.title
+{
+	height: 30%;
+	width: 50%;
+	color: white;
+	text-align: center;
+	margin-left: 25%;
+	margin-top: 5%;
+	background-color: aqua;
+}
+.desc
+{
+	height: 15%;
+	width: 50%;
+	color: white;
+	text-align: center;
+	margin-left: 25%;
+	background-color: greenyellow;
+}
+.block2
+{
+	width: 70%;
+	height:60vh;
+	align-items: center;
+	background-color: indigo;
+}
+.skills
+{
+	background-color: hotpink;
+	width: 30%;
+	height: 30vh;
+}
